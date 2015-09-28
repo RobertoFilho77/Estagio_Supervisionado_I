@@ -1,31 +1,25 @@
 # DropForms
-Desenvolvido para Trabalho de Estágio 1 - FA7
-![subway-run](images/demo.png)
+Desenvolvido para Trabalho de EstÃ¡gio 1 - FA7
+![subway-run](Pint1.jpg)
 
-## Sumário
+## SumÃ¡rio
 
 * [Enredo](#enredo)
-* [Objetivo Geral](#objetivo-geral)
-* [Objetivos Específicos](#objetivos-específicos)
+* [Objetivos](#objetivos)
+* [Regras do Jogo](#regras-do-jogo)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 # Enredo
-Subway Run é um jogo móvel de uma corrida interminável. Onde o personagem "Gaara" tem que correr pelos metrôs das cidades coletando itens e desviando dos obstáculos. Esses itens serviram para aumentar a pontuação do jogador quando ele perder na fase. Além de poder liberar novos itens para personalizar seu personagem. Ultrapasse seus próprios recordes e fique em primeiro lugar no ranking de pontuação contra seus amigos.
+ O jogo Ã© baseado na ideia de que o usuÃ¡rio deve saber diferenciar as formas geomÃ©tricas e cores respectivamente aleatÃ³rios.
 
-# Objetivo Geral
+# Objetivos
 
-* Conseguir o maior número de pontos para ficar em primeiro lugar no ranking
-
-# Objetivos Específicos
-
-* Desviar dos obstáculos
-* Coleta os itens que aparecem em cada nível do jogo
-* Ultrapassar os próprios recordes
-* Ultrapassar as pontuações dos seus amigos
-* Personalizar seu personagem 
+* Mudar as formas geomÃ©tricas atravÃ©s do toque na prÃ³pria forma mostrada na tela para que ela coincida com a que estÃ¡ em queda.
 
 # Regras do Jogo
-* O jogo acaba quando o jogador esbarra em algum obstáculo ou nas laterais saindo dos trilhos
+* Ganha um ponto a cada acerto.
+* Perde uma tentativa a cada erro.
+* 5 tentativas no total.
 
 # Tecnologias Utilizadas
 
