@@ -1,0 +1,22 @@
+  local  move_formas
+  local forma = {display.newImage(formas[math.random(9)])}
+  local numero = table.maxn(forma) 
+
+  local function onLocalCollision( self, event )
+    if ( event.phase == "began" ) then
+      forma[numero+1] = display.newImage(formas[math.random(9)])
+      print("print2",numero)
+      move_formas( formas )      
+    end
+  end
+
+   move_formas  = function( formas )
+    numero = table.maxn(forma)  
+    physics.addBody(forma[numero], { density=3.0, friction=0.5, bounce=0.3 } )
+
+    forma[numero].isSensor = false
+    forma[numero].x = _W/2
+    forma[numero].y = -100
+
+    forma[numero].collision = onLocalCollision
+    forma[numero]:addEventListener( "collision" )
