@@ -1,5 +1,4 @@
 # DropForms
-Desenvolvido para Trabalho de Estágio 1 - FA7
 ![subway-run](Pint1.jpg)
 
 ## Sumário
